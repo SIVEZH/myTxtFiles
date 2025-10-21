@@ -1,0 +1,29 @@
+// The concept of git
+
+code in a editor -> storing in git (git is version control system)
+
+1) git clone [~origin]
+
+2) git add [~filename.type] ---> add file to staging area
+
+3) git commit -m "[~commit message]"
+
+4) git push origin [~branch]
+
+5) git pull origin [~branch]
+
+6) git merge [~branch] ---> merges present brach with [~branch]
+
+7) git remote origin add [~address]
+
+8) git checkout [~branch]
+
+9) git branch -a
+
+10) git init ---> creates .git file in the choses folder
+
+11) git branch -M oldName newName {not sure}
+
+12) git branch -m newName {not sure}
+
+13) git branch [~newBranchName] ---> creates new branch named [~newBranchName] then have to push it {may be with a new file inside it or can push a empty reposity i guess}
