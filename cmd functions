@@ -1,0 +1,89 @@
+1) cd - change directory
+
+2) cd .. - Change directory by one space backward
+
+3) dir - directories
+
+4) cls - clear screen
+
+5) exit( ) - closes cmd prompt
+
+6) mkdir folder_name - creates a folder with name "folder_name"
+    type nul > myfile.txt
+    echo Hello pal > greet.txt
+    echo This is a note > "C:\Users\sizh\Desktop\note.txt"
+
+7) del filename.type - removes that file.
+     rename a.txt b.txt - renames a to b.
+	
+8) rmdir folder_name - removes that folder. (USE : rmdir D:\ hello /s /q ) Here -- /s to remove all inside it and /q to not confirm.
+
+9) copy a.txt b.txt - copies a to b
+    copy source_file destination_folder
+    copy "a.txt" D:\Backup\
+    copy a.txt D:\Backup\b.txt
+    copy "C:\Users\sizh\Desktop\file.txt" "D:\My Folder\"
+    copy file.txt D:\Stuff\ /Y ---- (Add  /Y  to skip overwrite confirmation)
+
+10) echo - used to print in terminal.
+
+11) ipconfig - shows ip address and network info.
+
+12) tasklist - Shows all running processes.
+
+13) ping website.com - net speed.
+
+14) tree - shows all folders like tree (/f shows all files inside folders also).
+
+15) find "word" a.txt - finds the word "word" in a.txt.
+      findstr /v /x "word" sample.txt > newfile.txt  (/v means NOT , it excludes the line with that word /x means strict match).
+     move /y newfile.txt > sample.txt (/y means yes without it the system asks for confirmation).
+
+16) systeminfo - gives system info.
+
+17) ifconfig - ip configurations listed.
+
+18) taskkill /im chrome.exe /f - use only .exe files and /f used to force.
+      start chrome.exe
+
+19) shutdown /s /t 60 - shutdown in 60 seconds. (/f for force, /r for restart).
+
+20) attrib +h myfile.txt - hides the file.
+       attrib -h myfile.txt - unhides the file.
+
+21) fc a.txt b.txt - compare two files.
+
+22) netstat -an -- see open network connections.
+
+23)  Variables : (/p - prompt user input, /a arithmetic mode)
+
+		set A=   (here %A% exists but no value and important note is that no space between =)
+		set A=Harry (%A% is Harry)
+		set /p Name=Enter Your Name:
+		set /a x=10
+		set /a y=20
+		set /a sum = x+y ( + , - , * , / , % )
+		echo %sum%
+
+24) Relational and Logical Operators
+
+		==			Equal to
+		NEQ		Not equal to
+		LSS			Less than
+		LEQ			Less than or equal
+		GTR			Greater than
+		GEQ		Greater than or equal
+		&& 			Logical AND
+		|| 			Logical OR
+		NOT 		! in c
+
+
+
+
+
+
+
+
+
+
+
